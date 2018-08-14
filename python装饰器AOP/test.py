@@ -1,10 +1,10 @@
 
+
 def modify(function):
-    print"modify"
+    print "1"
     return function
-
 @modify
-def fun():
-    print"this is the fun()"
+def func():
+    print "function"
 
-fun()
+func();
